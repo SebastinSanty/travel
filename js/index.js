@@ -3,21 +3,8 @@ $(function () {
 
     const visited_countries = [
         // Hongkong
-        'ae',  // UAE
-        'au',  // Australia
-        'ca',  // Canada
-        'ch',  // Switzerland
-        'de',  // Germany
-        'fr',  // France
         'gb',  // Britain
         'in',  // India
-        'is',  // Iceland
-        'kr',  // Korea
-        'jp',  // Japan
-        'my',  // Malaysia
-        'np',  // Nepal
-        'sg',  // Singapore
-        'th',  // Thailand
         'us'  // US
     ]
 
@@ -25,43 +12,18 @@ $(function () {
         // 19/35
         'in-2984',  // Gujarat
         'in-ap',  // Andhra Pradesh
-        'in-br',  // Bihar
-        'in-ch',  // Chandigarh
         'in-dl',  // Delhi
         'in-ga',  // Goa
-        'in-hp',  // Himachal Pradesh
-        'in-hr',  // Haryana
-        'in-jh',  // Jharkhand
-        'in-jk',  // Jammu and Kashmir
         'in-ka',  // Karnataka
         'in-mh',  // Maharashtra
-        'in-or',  // Orissa
-        'in-pb',  // Punjab
-        'in-rj',  // Rajasthan
-        'in-tn',  // Tamil Nadu
         'in-up',  // Uttar Pradesh
-        'in-ut',  // Utrakhand
-        'in-wb'  // West Bengal
+        'in-kl', //Kerala
     ]
 
     const visited_states_in_us = [
         // 16/50
-        'us-al',  // Alabama
-        'us-az',  // Arizona
-        'us-ca',  // California
-        'us-fl',  // Florida
-        'us-ga',  // Georgia
-        'us-ky',  // Kentucky
-        'us-ma',  // Massachusetts
-        'us-nj',  // New Jersey
-        'us-nv',  // Nevada
-        'us-ny',  // New York
-        'us-nc',  // North Carolina
-        'us-or',  // Oregon
-        'us-sc',  // South Carolina
-        'us-tn',  // Tennessee
-        'us-wa',  // Washington
-        'us-wi'  // Wisconsin
+        'us-tx', //Texas
+        'us-pa', //Pennsylvania
     ];
 
     function getDrilldown(data, visited) {
