@@ -25,6 +25,8 @@ $(function () {
         'us-tx', //Texas
         'us-pa', //Pennsylvania
         'us-tn', //Tennessee
+        'us-ny',
+        'us-nj',
     ];
 
     function getDrilldown(data, visited) {
